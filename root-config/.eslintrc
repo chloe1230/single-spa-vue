@@ -1,0 +1,12 @@
+{
+  "extends": ["important-stuff", "eslint:recommended"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false
+  },
+  "rules": {
+    "no-console": "off",
+    "semi": "off",
+    "quotes": ["error", "single"]
+  }
+}
